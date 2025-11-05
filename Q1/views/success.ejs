@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="success-message">
+            <h2>Message Sent Successfully! 🎉</h2>
+        </div>
+        <div class="data-display">
+            <h3>Submitted Information</h3>
+            <p><strong>Name:</strong> <%= data.name %></p>
+            <p><strong>Email:</strong> <%= data.email %></p>
+            <p><strong>Message:</strong> <%= data.message %></p>
+        </div>
+        <a href="/" class="back-link">← Back to Form</a>
+    </div>
+</body>
+</html>
